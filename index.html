@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./string-math-master/string-math.js"></script>
+    </head>
+  <body>
+    <div class="container">
+      <div class="text-top" id="text-top"></div>
+      <div class="text-bottom" id="text-bottom"></div>
+      <div class="button" id="delete" onclick="Delete()">C</div>
+      <div class="button" onclick="BackSpace()">&#9003;</div>
+      <div class="button" onclick="Number(this.innerText)">/</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">7</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">8</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">9</div>
+      <div class="button" onclick="Number(this.innerText)">*</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">4</div onclick="Number(this.innerText)">
+      <div class="button btn-number" onclick="Number(this.innerText)">5</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">6</div>
+      <div class="button" onclick="Number(this.innerText)">-</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">1</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">2</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">3</div>
+      <div class="button" onclick="Number(this.innerText)">+</div>
+      <div class="button btn-number" onclick="Number(this.innerText)">0</div>
+      <div class="button" onclick="Number(this.innerText)">.</div>
+      <div class="button" id="equal" onclick="Equal()">=</div>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
